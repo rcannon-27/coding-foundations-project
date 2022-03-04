@@ -1,0 +1,43 @@
+.info-section {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(18,16,59);
+    background: linear-gradient(90deg, rgba(18,16,59,1) 0%, rgba(111,111,125,1) 0%, rgba(8,8,8,1) 76%);
+    color: #D3D3D3;
+    font-size: 2.3em;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: inset -155px -77px 194px -54px rgba(0,0,0,0.75);
+    padding-top: 20px;
+}
+
+.page-container {
+    display: flex;
+    margin-left: 10px;
+    margin-top: -30px;
+}
+
+.page-container > .content-wrapper p {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.highlight {
+    color: #72d4f6;
+}
+
+.page-container > .content-wrapper > #code {
+    width: 550px;
+    height: 500px;
+    margin: -5px -50px 20px 80px;
+    float: right;
+
+}
+
+.left-button-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-left: -10px;
+}

@@ -1,0 +1,69 @@
+/* Common styles */
+body {
+    margin: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Nav styles */
+.navigation-wrapper {
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+/* Left column styles */
+.navigation-wrapper > .left-column > .banner-image {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-wrapper > .left-column > .banner-image img {
+    width: 250px;
+    height: 100%;
+}
+
+/* Center column styles */
+.navigation-wrapper > .center-column > .header {
+    color: #e2cc6d ;
+    margin-bottom: -60px;
+}
+
+
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-wrapper > .nav-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.spark {
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Right column styles */
+.navigation-wrapper > .right-column > .right-btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.down-arrow {
+    font-weight: 800;
+}

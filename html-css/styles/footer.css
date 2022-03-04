@@ -1,0 +1,42 @@
+.footer {
+    background-color: #36383f;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-top: 1px solid #686868;
+    border-bottom: 1px solid #686868;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer > .team {
+    border-right: 2px solid #686868;
+    padding-right: 80px;
+    padding-left: 50px;
+}
+
+.footer > .ed {
+    border-right: 2px solid #686868;
+    padding-right: 60px;
+    padding-left: 70px;
+}
+
+.footer > .privacy {
+    border-right: 2px solid #686868;
+    padding-right: 80px;
+    padding-left: 60px;
+}
+
+.footer > .writing {
+    padding-left: 65px;
+    padding-right: 50px;
+}
+
+.loud {
+    font-family: 'Playfair Display', serif;
+    font-size: 25;
+}
